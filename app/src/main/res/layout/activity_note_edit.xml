@@ -12,11 +12,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_cancel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="cancel" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -41,12 +36,6 @@
                 android:text="" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_ok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="save" />
-
 
     </LinearLayout>
 
@@ -66,11 +55,22 @@
                 android:id="@+id/et_content"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ffae99"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="save" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cancel" />
 
         </LinearLayout>
+
 
     </ScrollView>
 
